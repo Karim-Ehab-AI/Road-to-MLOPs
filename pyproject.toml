@@ -1,0 +1,19 @@
+[project]
+name = "road-to-mlops"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Karim Ehab", email = "karim.ehab.ai@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "scikit-learn>=1.9.0",
+]
+
+[project.scripts]
+road-to-mlops = "road_to_mlops:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
